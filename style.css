@@ -1,0 +1,172 @@
+*, html body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background-image: url(./bag\ kue.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.menu {
+    font-family: tahoma;
+    font-weight: bold;
+    height: 50px;
+    width: 100%;
+    background: #444;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20pt;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    float: left;
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:30px;
+    position: relative;
+    color: aqua;
+    margin-top: 50px;
+    margin-left: 140px
+}
+
+#typing{
+    width: auto;
+    color: #ff5300;
+    float: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding-left: 200px;
+    padding-top: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(23) 1s infinite;
+}
+
+#typing span{
+    color: #555;
+}
+
+/* #lina{
+    float: left;
+    margin-top: 10px;
+    color: #000000;
+    font-size: 50px;
+    animation: crow 0.5s linear 1s infinite;
+} */
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 500px;
+    }
+}
+/* @keyframes lina{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}  */
+
+.menu ul {
+    margin: 0;
+    padding: 5px;
+    background: none;
+    display: block;
+    float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+#buton {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.menu ul li a:hover {
+    display: block;
+    color: green;
+    background: #222;
+    box-shadow: inset 0px 0px 5px #000;
+}
+
+.menu ul li .dropdown {
+    display: none;
+}
+
+.menu ul li:hover .dropdown {
+    display: block;
+    background: black;
+    position: absolute;
+    padding: 5px;
+}
+
+.menu ul li:hover .dropdown li {
+    display: block;
+}
+
+.menu ul li:hover .dropdown li a:hover {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.menu ul li:hover .dropdown li a:hover {
+    background: #222;
+    box-shadow: inset 0px 0px 5px #000;
+}
+
+.barang1 {
+    width: 100px;
+    max-height: 50px;
+    position: relative;
+}
+
+.img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+/* .btn {
+    background-color: aqua;
+    width: 50px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.btn {
+    position: relative;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 30px;
+    color: red;
+    text-decoration: none;
+} */
+

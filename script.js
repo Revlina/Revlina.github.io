@@ -1,0 +1,2 @@
+alert("Semoga menyenangkan & Bermanfaat");
+
